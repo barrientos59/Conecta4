@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.HBox?>
+<BorderPane prefWidth="860.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.conecta4.Controller">
+   <top>
+       <GridPane fx:id="gridPane"
+                 alignment="CENTER"
+                 hgap="5.0"
+                 prefHeight="681.0"
+                 prefWidth="800.0"
+                 style="-fx-background-color: blue;"
+                 vgap="5.0"
+                 BorderPane.alignment="CENTER">
+
+       <!-- Botones debajo de cada columna -->
+           <Button onAction="#handleColumnButtonClick"
+                   text="Tirar Ficha"
+                   textAlignment="CENTER"
+                   GridPane.columnIndex="0"
+                   GridPane.rowIndex="6">
+               <GridPane.margin>
+                   <Insets left="15.0" />
+               </GridPane.margin>
+           </Button>
+
+           <Button onAction="#handleColumnButtonClick"
+                   text="Tirar Ficha"
+                   textAlignment="CENTER"
+                   GridPane.columnIndex="1"
+                   GridPane.rowIndex="6">
+               <GridPane.margin>
+                   <Insets left="15.0" />
+               </GridPane.margin>
+           </Button>
+           <Button onAction="#handleColumnButtonClick"
+                   text="Tirar Ficha"
+                   textAlignment="CENTER"
+                   GridPane.columnIndex="2"
+                   GridPane.rowIndex="6">
+               <GridPane.margin>
+                   <Insets left="15.0" />
+               </GridPane.margin>
+           </Button>
+           <Button onAction="#handleColumnButtonClick"
+                   text="Tirar Ficha"
+                   textAlignment="CENTER"
+                   GridPane.columnIndex="3"
+                   GridPane.rowIndex="6">
+               <GridPane.margin>
+                   <Insets left="15.0" />
+               </GridPane.margin>
+           </Button>
+           <Button onAction="#handleColumnButtonClick"
+                   text="Tirar Ficha"
+                   textAlignment="CENTER"
+                   GridPane.columnIndex="4"
+                   GridPane.rowIndex="6">
+               <GridPane.margin>
+                   <Insets left="15.0" />
+               </GridPane.margin>
+           </Button>
+           <Button onAction="#handleColumnButtonClick"
+                   text="Tirar Ficha"
+                   textAlignment="CENTER"
+                   GridPane.columnIndex="5"
+                   GridPane.rowIndex="6">
+               <GridPane.margin>
+                   <Insets left="15.0" />
+               </GridPane.margin>
+           </Button>
+           <Button onAction="#handleColumnButtonClick"
+                   text="Tirar Ficha"
+                   textAlignment="CENTER"
+                   GridPane.columnIndex="6"
+                   GridPane.rowIndex="6">
+               <GridPane.margin>
+                   <Insets left="15.0" />
+               </GridPane.margin>
+           </Button>
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="1" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="2" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="3" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="4" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="5" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+         <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+
+            <Circle fx:id="dropCircle" fill="TRANSPARENT" radius="50.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Label text="Turno de:" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="1">
+            <font>
+               <Font name="Impact" size="24.0" />
+            </font>
+         </Label>
+
+         <columnConstraints>
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints />
+         </rowConstraints>
+
+        </GridPane>
+   </top>
+
+</BorderPane>
