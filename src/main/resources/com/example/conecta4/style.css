@@ -1,58 +1,41 @@
-/* style.css */
 
-/* Estilo del fondo del BorderPane */
 #gridPane {
-    -fx-background-color: #f0f8ff; /* Azul claro */
+    -fx-background-color: #f0f8ff;
 }
-
-/* Estilo de los botones */
 .button {
-    -fx-background-color: #4682b4; /* Azul oscuro */
+    -fx-background-color: #4682b4;
     -fx-text-fill: white;
     -fx-font-size: 14px;
 }
-
-/* Estilo de los círculos */
 .circle {
-    -fx-fill: #add8e6; /* Azul más claro */
+    -fx-fill: #add8e6;
     -fx-stroke: black;
     -fx-stroke-type: inside;
 }
-
-/* Estilo del texto de la etiqueta */
 .label {
-    -fx-text-fill: #00008b; /* Azul oscuro */
+    -fx-text-fill: #00008b; 
     -fx-font-size: 24px;
     -fx-font-family: "Impact";
 }
-
-/* Estilo de los TextField */
 .text-field {
-    -fx-prompt-text-fill: #4682b4; /* Azul oscuro */
+    -fx-prompt-text-fill: #4682b4; 
 }
-
-/* Estilo de los RadioButtons */
 .radio-button {
-    -fx-text-fill: #00008b; /* Azul oscuro */
+    -fx-text-fill: #00008b;
 }
 MenuBar {
-    -fx-background-color: #F0F0F0; /* Gris muy claro (casi blanco) para el fondo */
-}
-
-/* Estilos para los elementos del menú (Opciones y sus subelementos) */
+    -fx-background-color: #F0F0F0;
 .menu {
-    -fx-background-color: #F0F0F0; /* Gris muy claro (casi blanco) para el fondo */
+    -fx-background-color: #F0F0F0;
 }
 
 
 .menu-item:hover {
-    -fx-background-color: #DDDDDD; /* Cambia el color de fondo al pasar el ratón sobre la opción */
+    -fx-background-color: #DDDDDD; 
 }
-
-/* Estilos específicos para el menú "Opciones" */
 .menu .label {
-    -fx-font-size: 14px; /* Tamaño de la fuente */
-    -fx-text-fill: black; /* Color del texto negro */
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
 }
 
 
